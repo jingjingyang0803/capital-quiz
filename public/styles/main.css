@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Arial, sans-serif;
@@ -48,7 +48,7 @@ button {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #ffca00;
+  background-color: #805ad5;
   color: white;
   border: none;
   border-radius: 5px;
@@ -61,7 +61,7 @@ button {
 }
 
 button:hover {
-  background-color: #ffd500;
+  background-color: #9873e8;
 }
 
 #result {
