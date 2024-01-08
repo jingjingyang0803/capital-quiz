@@ -17,10 +17,13 @@ const db = new pg.Client({
 // Connect to the database
 db.connect();
 
+let QUERY =
+  "SELECT capitals.country, capitals.capital, flags.flag FROM capitals JOIN flags ON capitals.country = flags.name";
+
 // Array to store quiz questions
 let quiz = [];
 // Query the database for capitals and store the results in the quiz array
-db.query("SELECT * FROM capitals", (err, res) => {
+db.query(QUERY, (err, res) => {
   if (err) {
     console.error("Error executing query", err.stack);
   } else {
