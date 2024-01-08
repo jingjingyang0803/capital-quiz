@@ -20,6 +20,8 @@ The World Capital Quiz, a course project for course The Complete 2023 Web Develo
   1. Create a new database named **`world`**.
   2. Create a table **`capitals`** with the following columns: `id serial primary key`, `country varchar(45)`, `capital varchar(45)`.
   3. Import the data from **`capitals.csv`**.
+  4. Create a table **`flags`** with the following columns: `id serial primary key`, `name varchar(45)`, `flag text`.
+  5. Import the data from **`flags.csv`**.
 - Please modify the database configuration below in your `index.js` file according to your specific PostgreSQL setup. Make sure to replace "postgres" with your username, "localhost" with your host, "world" with your database name, "0803" with your password, and "5433" with your port number.
   ```jsx
   // Database configuration
