@@ -1,6 +1,6 @@
 # capital-quiz
 
-The World Capital Quiz, a course project for course The Complete 2023 Web Development Bootcamp (on Udemy), is an interactive web application that tests users' knowledge of world capitals. Built with Express.js and PostgreSQL, it offers a fun and educational way to learn about different countries and their capitals.
+The World Capital Quiz, a course project for course The Complete 2023 Web Development Bootcamp (AppBrewery), is an interactive web application that tests users' knowledge of world capitals. Built with Express.js and PostgreSQL, it offers a fun and educational way to learn about different countries and their capitals.
 
 ## **Features**
 
